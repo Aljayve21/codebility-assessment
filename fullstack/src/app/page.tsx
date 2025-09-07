@@ -9,7 +9,7 @@ export default function HomePage() {
         {posts.map((post) => (
           <li key={post.id} className="border-b pb-2">
             <Link
-              href={`/api/posts/${post.id}`}
+              href={`/posts/${post.id}`}
               className="text-xl text-blue-600 hover:underline"
             >
               {post.title}
